@@ -1,0 +1,3 @@
+git+https://github.com/stlukey/whispercpp.py
+gradio
+yt_dlp
