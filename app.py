@@ -43,9 +43,16 @@ with gr.Blocks() as demo:
     # CPP Whisperer - Transcribe YouTube Videos
     
     """)
-    inp = gr.Textbox(placeholder="Insert YT Url here")
-    result_button_transcribe = gr.Button('Transcribe')
-    out = gr.Textbox()
+    with gr.Row():
+        with gr.Column():
+
+            inp = gr.Textbox(label="Youtube Url",placeholder="Insert YT Url here")
+            result_button_transcribe = gr.Button('Transcribe')
+
+        with gr.Column():
+            out = gr.Textbox(label="Transcribed Text")
+    
+    
     result_button_transcribe.click(transcribe_youtube, inputs = inp, outputs = out)
 
 
