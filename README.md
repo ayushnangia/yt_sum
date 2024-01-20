@@ -8,7 +8,8 @@ YouTube Summarizer is a tool designed to provide concise summaries of YouTube vi
 - **Video Summarization:** Extracts key points from YouTube videos.
 - **Gradio Interface:** User-friendly web interface for easy interaction.
 - **Customization Options:** Allows users to specify the length of summaries.
-- **Hugging Face Integration:** Check out our Hugging Face space for additional features and capabilities.
+- **Hugging Face Integration:** Check out our [Hugging Face space](https://huggingface.co/spaces/Ayushnangia/Whispercpp_yt) for additional features and capabilities.
+
 
 ## Installation
 
