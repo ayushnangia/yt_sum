@@ -61,7 +61,7 @@ def transcribe_sum_youtube(youtube_url,n):
 with gr.Blocks() as demo:
     gr.Markdown(
     """
-    # CPP Whisperer - Transcribe YouTube Videos
+    # CPP Whisperer - YouTube Videos Summarizer
     
     """)
     with gr.Row():
